@@ -8,7 +8,7 @@ namespace _06.RemoveVillain
         static void Main(string[] args)
         {
             const string _connectionString =
-                @"Server=DESKTOP-4A8B05S;Database=MinionsDB;Integrated Security=True;";
+                @"Server=.;Database=MinionsDB;Integrated Security=True;";
 
             int villainId = int.Parse(Console.ReadLine());
 

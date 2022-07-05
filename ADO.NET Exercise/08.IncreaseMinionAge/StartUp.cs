@@ -10,7 +10,7 @@ namespace _08.IncreaseMinionAge
         static void Main(string[] args)
         {
             const string _connectionString =
-                @"Server=DESKTOP-4A8B05S;Database=MinionsDB;Integrated Security=True;";
+                @"Server=.;Database=MinionsDB;Integrated Security=True;";
 
             int[] minionIds = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
 

@@ -8,7 +8,7 @@ namespace _04.AddMinion
         static void Main(string[] args)
         {
             const string _connectionString =
-                @"Server=DESKTOP-4A8B05S;Database=MinionsDB;Integrated Security=True;";
+                @"Server=.;Database=MinionsDB;Integrated Security=True;";
 
             using SqlConnection sqlConnection =
                 new SqlConnection(_connectionString);
